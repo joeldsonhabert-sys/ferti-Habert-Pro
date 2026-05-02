@@ -7,102 +7,102 @@
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#4ade80">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
-• { box-sizing: border-box; margin: 0; padding: 0; }
-body { background: #080d1a; color: #f1f5f9; font-family: 'IBM Plex Mono', monospace; min-height: 100vh; padding-bottom: 50px; }
-.header { border-bottom: 1px solid #1e293b; padding: 15px 20px; display: flex; align-items: center; gap: 12px; background: #0f172a; }
-.header-logo { font-size: 24px; }
-.header-title { font-size: 16px; font-weight: 700; color: #f1f5f9; }
-.nav { display: flex; gap: 10px; padding: 10px 20px; background: #0f172a; border-bottom: 1px solid #1e293b; overflow-x: auto; sticky: top; }
-.nav-btn { padding: 10px 15px; border-radius: 8px; border: none; background: transparent; color: #64748b; cursor: pointer; font-weight: 600; white-space: nowrap; transition: 0.3s; }
-.nav-btn.active { background: #4ade80; color: #0a0f1a; }
-.main { max-width: 800px; margin: 20px auto; padding: 0 15px; }
-.card { background: #131c2e; border: 1px solid #1e293b; border-radius: 16px; padding: 20px; margin-bottom: 20px; }
-.sec-title { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
-.sec-title h2 { font-size: 14px; color: #4ade80; text-transform: uppercase; letter-spacing: 1px; }
-.sec-title-line { flex: 1; height: 1px; background: #1e293b; }
-.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
-.field { margin-bottom: 15px; }
-.field-label { display: block; font-size: 11px; color: #cbd5e1; margin-bottom: 5px; font-weight: 700; }
-input, select { width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: 8px; color: #fff; padding: 10px; outline: none; }
-input:focus { border-color: #4ade80; }
-#fi-status-container { padding: 15px; border-radius: 10px; text-align: center; font-weight: 700; margin: 15px 0; transition: 0.5s; }
-.mini-card { background: #0f172a; padding: 12px; border-radius: 10px; border: 1px solid #1e293b; text-align: center; }
-.mini-card-label { font-size: 10px; color: #94a3b8; text-transform: uppercase; }
-.mini-card-val { font-size: 18px; font-weight: 700; margin-top: 5px; }
-.aviso-rec { background: #0c4a6e; border: 1px solid #0ea5e9; color: #e0f2fe; padding: 12px; border-radius: 8px; font-size: 13px; margin-bottom: 15px; }
-.hidden { display: none; }
-@media (max-width: 600px) { .grid2 { grid-template-columns: 1fr; } }
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #080d1a; color: #f1f5f9; font-family: 'IBM Plex Mono', monospace; min-height: 100vh; padding-bottom: 50px; }
+  .header { border-bottom: 1px solid #1e293b; padding: 15px 20px; display: flex; align-items: center; gap: 12px; background: #0f172a; }
+  .header-logo { font-size: 24px; }
+  .header-title { font-size: 16px; font-weight: 700; color: #f1f5f9; }
+  .nav { display: flex; gap: 10px; padding: 10px 20px; background: #0f172a; border-bottom: 1px solid #1e293b; overflow-x: auto; sticky: top; }
+  .nav-btn { padding: 10px 15px; border-radius: 8px; border: none; background: transparent; color: #64748b; cursor: pointer; font-weight: 600; white-space: nowrap; transition: 0.3s; }
+  .nav-btn.active { background: #4ade80; color: #0a0f1a; }
+  .main { max-width: 800px; margin: 20px auto; padding: 0 15px; }
+  .card { background: #131c2e; border: 1px solid #1e293b; border-radius: 16px; padding: 20px; margin-bottom: 20px; }
+  .sec-title { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
+  .sec-title h2 { font-size: 14px; color: #4ade80; text-transform: uppercase; letter-spacing: 1px; }
+  .sec-title-line { flex: 1; height: 1px; background: #1e293b; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+  .field { margin-bottom: 15px; }
+  .field-label { display: block; font-size: 11px; color: #cbd5e1; margin-bottom: 5px; font-weight: 700; }
+  input, select { width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: 8px; color: #fff; padding: 10px; outline: none; }
+  input:focus { border-color: #4ade80; }
+  #fi-status-container { padding: 15px; border-radius: 10px; text-align: center; font-weight: 700; margin: 15px 0; transition: 0.5s; }
+  .mini-card { background: #0f172a; padding: 12px; border-radius: 10px; border: 1px solid #1e293b; text-align: center; }
+  .mini-card-label { font-size: 10px; color: #94a3b8; text-transform: uppercase; }
+  .mini-card-val { font-size: 18px; font-weight: 700; margin-top: 5px; }
+  .aviso-rec { background: #0c4a6e; border: 1px solid #0ea5e9; color: #e0f2fe; padding: 12px; border-radius: 8px; font-size: 13px; margin-bottom: 15px; }
+  .hidden { display: none; }
+  @media (max-width: 600px) { .grid2 { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
 
 <div class="header">
-<div class="header-logo">🌱</div>
-<div class="header-title">AGRO HABERT PRO v1.1</div>
+  <div class="header-logo">🌱</div>
+  <div class="header-title">AGRO HABERT PRO v1.1</div>
 </div>
 
 <div class="nav">
-<button class="nav-btn active" onclick="showTab('dados')">🧪 Análise de Solo</button>
-<button class="nav-btn" onclick="showTab('fertirrigacao')">💧 Fertirrigação</button>
-<button class="nav-btn" onclick="showTab('ajuda')">❓ Ajuda Técnica</button>
+  <button class="nav-btn active" onclick="showTab('dados')">🧪 Análise de Solo</button>
+  <button class="nav-btn" onclick="showTab('fertirrigacao')">💧 Fertirrigação</button>
+  <button class="nav-btn" onclick="showTab('ajuda')">❓ Ajuda Técnica</button>
 </div>
 
 <div class="main">
 
-<div id="tab-dados">
-<div class="card">
-<div class="sec-title"><h2>Dados da Amostra</h2><div class="sec-title-line"></div></div>
-<div class="grid2">
-<div class="field">
-<label class="field-label">Cultura Alvo</label>
-<select id="cultura">
-<option value="tomate">Tomate</option>
-<option value="pimentao">Pimentão</option>
-</select>
-</div>
-<div class="field">
-<label class="field-label">Área do Talhão (ha)</label>
-<input type="number" id="area" value="1" step="0.1">
-</div>
-</div>
-<p style="font-size: 12px; color: #94a3b8;">Insira os dados da análise laboratorial para cálculos de NPK e Calagem.</p>
-</div>
-</div>
+  <div id="tab-dados">
+    <div class="card">
+      <div class="sec-title"><h2>Dados da Amostra</h2><div class="sec-title-line"></div></div>
+      <div class="grid2">
+        <div class="field">
+          <label class="field-label">Cultura Alvo</label>
+          <select id="cultura">
+            <option value="tomate">Tomate</option>
+            <option value="pimentao">Pimentão</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="field-label">Área do Talhão (ha)</label>
+          <input type="number" id="area" value="1" step="0.1">
+        </div>
+      </div>
+      <p style="font-size: 12px; color: #94a3b8;">Insira os dados da análise laboratorial para cálculos de NPK e Calagem.</p>
+    </div>
+  </div>
 
-<div id="tab-fertirrigacao" class="hidden">
-<div class="card">
-<div class="sec-title"><span>💧</span><h2>Monitoramento de Solução</h2><div class="sec-title-line"></div></div>
-<div class="aviso-rec">💡 <strong>Campo:</strong> A CE mede a concentração total de sais. Se estiver muito alta, a raiz não consegue "beber" água.</div>
-<div class="grid2">
-<div class="field">
-<label class="field-label">Leitura EC do Aparelho</label>
-<input type="number" id="fi-ec-atual" placeholder="Ex: 2.2" step="0.1" oninput="calcFert()">
-<span style="font-size: 10px; color: #94a3b8;">Unidade: mS/cm</span>
-</div>
-<div class="field">
-<label class="field-label">Fase da Cultura</label>
-<select id="fi-fase" onchange="calcFert()">
-<option value="1.2">Muda (Sensível) - Máx 1.2</option>
-<option value="1.8">Crescimento - Máx 1.8</option>
-<option value="2.5" selected>Produção/Frutos - Máx 2.5</option>
-<option value="3.0">Maturação Final - Máx 3.0</option>
-</select>
-</div>
-</div>
-<div id="fi-status-container" style="background:#1e293b">Insira a leitura para verificar a salinidade</div>
-<div class="grid2">
-<div class="mini-card">
-<div class="mini-card-label">Limite KCl (Segurança)</div>
-<div class="mini-card-val" style="color: #fbbf24;">1.0 g/L</div>
-<div class="mini-card-unit" style="font-size: 10px; color: #94a3b8;">Concentração na mangueira</div>
-</div>
-<div class="mini-card">
-<div class="mini-card-label">Sólidos Totais (TDS)</div>
-<div id="fi-ppm" class="mini-card-val">—</div>
-<div style="font-size: 10px; color: #94a3b8;">Partes por milhão (PPM)</div>
-</div>
-</div>
-</div>
-<div class="card"><div class="sec-title"><h2>Histórico de Leituras EC</h2></div><canvas id="ecChart" height="120"></canvas></div>
-<div class="card" style="background: #0d1f
+  <div id="tab-fertirrigacao" class="hidden">
+    <div class="card">
+      <div class="sec-title"><span>💧</span><h2>Monitoramento de Solução</h2><div class="sec-title-line"></div></div>
+      <div class="aviso-rec">💡 <strong>Campo:</strong> A CE mede a concentração total de sais. Se estiver muito alta, a raiz não consegue "beber" água.</div>
+      <div class="grid2">
+        <div class="field">
+          <label class="field-label">Leitura EC do Aparelho</label>
+          <input type="number" id="fi-ec-atual" placeholder="Ex: 2.2" step="0.1" oninput="calcFert()">
+          <span style="font-size: 10px; color: #94a3b8;">Unidade: mS/cm</span>
+        </div>
+        <div class="field">
+          <label class="field-label">Fase da Cultura</label>
+          <select id="fi-fase" onchange="calcFert()">
+            <option value="1.2">Muda (Sensível) - Máx 1.2</option>
+            <option value="1.8">Crescimento - Máx 1.8</option>
+            <option value="2.5" selected>Produção/Frutos - Máx 2.5</option>
+            <option value="3.0">Maturação Final - Máx 3.0</option>
+          </select>
+        </div>
+      </div>
+      <div id="fi-status-container" style="background:#1e293b">Insira a leitura para verificar a salinidade</div>
+      <div class="grid2">
+        <div class="mini-card">
+          <div class="mini-card-label">Limite KCl (Segurança)</div>
+          <div class="mini-card-val" style="color: #fbbf24;">1.0 g/L</div>
+          <div class="mini-card-unit" style="font-size: 10px; color: #94a3b8;">Concentração na mangueira</div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-card-label">Sólidos Totais (TDS)</div>
+          <div id="fi-ppm" class="mini-card-val">—</div>
+          <div style="font-size: 10px; color: #94a3b8;">Partes por milhão (PPM)</div>
+        </div>
+      </div>
+    </div>
+    <div class="card"><div class="sec-title"><h2>Histórico de Leituras EC</h2></div><canvas id="ecChart" height="120"></canvas></div>
+    <div class="card" style="background: #0d1f
